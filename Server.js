@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
+const bcrypt = require('bcryptjs');
 app.use(express.json());
 app.use(cors());
 
