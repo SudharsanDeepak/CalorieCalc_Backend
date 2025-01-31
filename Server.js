@@ -1,13 +1,12 @@
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import dotenv from "dotenv";
 
 dotenv.config();
 
 const app = express();
-const bcrypt = require('bcryptjs');
 app.use(express.json());
 app.use(cors());
 
